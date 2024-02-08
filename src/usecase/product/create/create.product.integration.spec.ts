@@ -29,15 +29,11 @@ describe("Integration test create product use case", () => {
         const productRepository = new ProductRepository();
         const useCase = new CreateProductUseCase(productRepository);
 
-        const product = new Product(uuid(), "Product 1", 10);
-
         const input = {
             type: "a",
             name: "Product 1",
             price: 10
         }
-        
-        await productRepository.create(product);
 
         const output = await useCase.execute(input);
 
