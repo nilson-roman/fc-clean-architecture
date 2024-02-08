@@ -1,6 +1,6 @@
 import ProductFactory from "../../../domain/product/factory/product.factory";
 import ProductRepositoryInterface from "../../../domain/product/repository/product-repository.interface";
-import { InputCreateProductDto } from "./create.product.dto";
+import { InputCreateProductDto, OutputCreateProductDto } from "./create.product.dto";
 
 export default class CreateProductUseCase {
     private productRepository: ProductRepositoryInterface;
@@ -9,7 +9,7 @@ export default class CreateProductUseCase {
         this.productRepository = productRepository;
     }
 
-    async execute(input: InputCreateProductDto) {
+    async execute(input: InputCreateProductDto): Promise<OutputCreateProductDto> {
         const product = ProductFactory.create(
             input.type,
             input.name,
