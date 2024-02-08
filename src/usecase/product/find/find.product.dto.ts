@@ -2,7 +2,7 @@ export interface InputFindProductDto {
     id: string;
 }
 
-export interface OutputCreateProductDto {
+export interface OutputFindProductDto {
     id: string;
     name: string;
     price: number;
