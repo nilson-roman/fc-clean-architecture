@@ -7,7 +7,8 @@ https://github.com/devfullcycle/fc-clean-architecture
 
 In this challenge I must implement the usecases create, find, list and update for Product
 
-Installation
+## Installation
+
 To install the software, follow these steps:
 
 1. Clone the repository:
