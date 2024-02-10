@@ -1,11 +1,11 @@
-# Full Cycle Product Notification Pattern Challenge
+# Full Cycle Validating Product Challenge
 This project is a fork of the Full Cycle fc-clean-architecture repository:
 
 ```sh
 https://github.com/devfullcycle/fc-clean-architecture
 ```
 
-In this challenge I must implement notification pattern for errors in product validation
+In this challenge I must use a validation factory for product
 
 ## Installation
 
@@ -26,7 +26,7 @@ cd fc-clean-architecture
 3. Change to branch notification:
 
 ```sh
-git checkout notification
+git checkout validation
 ```
 
 4. Install the dependencies:
