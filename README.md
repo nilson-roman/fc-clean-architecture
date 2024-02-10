@@ -1,11 +1,11 @@
-# Full Cycle Product Route Challenge
+# Full Cycle Product Notification Pattern Challenge
 This project is a fork of the Full Cycle fc-clean-architecture repository:
 
 ```sh
 https://github.com/devfullcycle/fc-clean-architecture
 ```
 
-In this challenge I must implement e2e tests for list product route
+In this challenge I must implement notification pattern for errors in product validation
 
 ## Installation
 
@@ -33,7 +33,7 @@ npm install
 To execute the tests for the challenge, run the following command:
 
 ```sh
-npm test src/infrastructure/api/__tests__/product.e2e.spec.ts
+npm test src/domain/product/entity/product.spec.ts
 ```
 
 ## Technology
