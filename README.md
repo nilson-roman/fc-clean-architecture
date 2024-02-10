@@ -5,7 +5,7 @@ This project is a fork of the Full Cycle fc-clean-architecture repository:
 https://github.com/devfullcycle/fc-clean-architecture
 ```
 
-In this challenge I must implement the usecases create, find, list and update for Product
+In this challenge I must implement e2e tests for list product route
 
 ## Installation
 
@@ -33,7 +33,7 @@ npm install
 To execute the tests for the challenge, run the following command:
 
 ```sh
-npm test src/usecase/product
+npm test src/infrastructure/api/__tests__/product.e2e.spec.ts
 ```
 
 ## Technology
