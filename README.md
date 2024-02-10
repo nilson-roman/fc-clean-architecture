@@ -23,7 +23,13 @@ git clone https://github.com/nilson-roman/fc-clean-architecture
 cd fc-clean-architecture
 ```
 
-3. Install the dependencies:
+3. Change to branch notification:
+
+```sh
+git checkout notification
+```
+
+4. Install the dependencies:
 
 ```sh
 npm install
